@@ -18,7 +18,7 @@ Diypa571  <br />
 // This is the init function, we need it for window onload  <br />
 function init()   <br />
 {  <br />
-    // Creating a reference to the the element with id equal to menuToggle  <br />
+    // Creating a reference to the element with id equal to menuToggle  <br />
 menuElem = document.getElementById("menuToggle");  <br />
 // addEventListener for the element function call  <br />
 menuElem.addEventListener("click",   displaySidebar);  <br />
