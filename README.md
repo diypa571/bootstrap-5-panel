@@ -20,7 +20,7 @@ function init()   <br />
 {  <br />
     // Creating a reference to the element with id equal to menuToggle  <br />
 menuElem = document.getElementById("menuToggle");  <br />
-// addEventListener for the element function call  <br />
+// addEventListener for the element, to call the displaySidebar function on click.   <br />
 menuElem.addEventListener("click",   displaySidebar);  <br />
 }   <br />
 
