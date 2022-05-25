@@ -2,12 +2,7 @@ body, html {
 height: 100%;
 overflow-x: hidden;
 }
-
-#main {
-margin-top: 0px;
-width: 100%;
-position: absolute;
-}
+ 
 
 #wrapper {
 -webkit-transition: all 0.5s ease;
@@ -43,15 +38,7 @@ width: 240px;
 }
 
  
-
-
-#wrapper.toggled #main {
-position: absolute;
-margin-right: -240px;
-}
-
-
-
+ 
 /* The style for the sidebar */
 .sidebar-navigation {
 position: absolute;
@@ -63,8 +50,8 @@ list-style: none;
 }
 
 .sidebar-navigation li {
-text-indent: 20px;
-line-height: 40px;
+text-indent: 22px;
+line-height: 42px;
 }
 
 .sidebar-navigation li a {
@@ -92,7 +79,7 @@ padding: 0;
 margin: 0;
 }
 .sidebar-navigation ul > li {
-font-size: 13px;
+font-size: 15px;
 }
 
 .sidebar-navigation ul > li > a {
@@ -108,19 +95,38 @@ background: rgba(255, 255, 255, 0.6);
  visibility: visible;
 }*/
 
+
+
+footer {
+background-color:red;
+position: relative;
+bottom: 0;
+
+
+}
+
+
+ 
 /* Media query for browser with min 860px..*/
 @media(min-width:860px) {
 
-/*
-#menuToggle {
-visibility: hidden;
-}
-*/
+ 
+footer {
+background-color:red;
+position: relative;
 
-#main {
+
+}
+ 
+
+
+main {
  margin-top: 0px;
 position: relative;
 }
+
+
+ 
 
 #sidebar-section {
 width: 240px;
@@ -139,10 +145,12 @@ padding-left: 0;
 width: 0;
 }
 
-#wrapper.toggled #main {
+#wrapper.toggled main {
 position: relative;
 margin-right: 0;
 }
+
+ 
  
 }
 /* End of the Media query for browser with min 860px..*/
